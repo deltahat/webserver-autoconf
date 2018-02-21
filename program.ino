@@ -24,7 +24,6 @@ Si no desea este archivo, codifique sus credenciales en este boceto
 #define HELPERS_H
 // #define ESP_12
 
-
 //
 // Check the Values is between 0-255
 //
@@ -39,7 +38,6 @@ boolean checkRange(String Value)
     return true;
   }
 }
-
 
 
 void WriteStringToEEPROM(int beginaddress, String string)
