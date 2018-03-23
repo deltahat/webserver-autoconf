@@ -1,8 +1,10 @@
 #ifndef PAGE_INFOMATION_H
 #define PAGE_INFOMATION_H
+
 //
 //   The HTML PAGE
 //
+
 const char PAGE_Information[] PROGMEM = R"=====(
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
