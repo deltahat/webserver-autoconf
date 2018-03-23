@@ -1,7 +1,5 @@
 #ifndef PAGE_INFOMATION_H
 #define PAGE_INFOMATION_H
-
-
 //
 //   The HTML PAGE
 //
@@ -65,6 +63,5 @@ void send_information_values_html ()
   Serial.println(__FUNCTION__); 
   AdminTimeOutCounter=0;
 }
-
 
 #endif
