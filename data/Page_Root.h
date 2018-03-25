@@ -1,4 +1,3 @@
-
 const char PAGE_Root[] PROGMEM = R"=====(
 <!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
