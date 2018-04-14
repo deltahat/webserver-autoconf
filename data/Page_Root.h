@@ -12,7 +12,6 @@ const char PAGE_Root[] PROGMEM = R"=====(
   It work's!
   </body>
 </html>
-
 )=====";
 
 void sendRootPage()
@@ -25,4 +24,3 @@ void sendRootPage()
     }
     server.send ( 200, "text/html", PAGE_Root ); 
 }
- 
